@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SADCW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SADCW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SADCW-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SADCW:war exploded" />
+    </root>
+  </artifact>
+</component>
